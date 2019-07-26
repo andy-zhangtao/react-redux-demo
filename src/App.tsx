@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import CountCon from './components/CounterCon';
 
 const App: React.FC = () => {
   return (
@@ -16,8 +17,9 @@ const App: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          https://juejin.im/post/5c81d10b5188257ee7275222
         </a>
+        <CountCon  />
       </header>
     </div>
   );
