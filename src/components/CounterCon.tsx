@@ -7,9 +7,13 @@ import { StoreState } from '../types';
 
 
 // 将 reducer 中的状态插入到组件的 props 中
-const mapStateToProps = (state: StoreState): { value: number } => ({
-    value: state
-})
+const mapStateToProps = (state:StoreState) => {
+    return {
+        state:{
+            value:state.value
+        }
+    }
+}
 
 // 将 对应action 插入到组件的 props 中
 const mapDispatchToProps = (dispatch: Dispatch) => ({
