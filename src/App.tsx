@@ -1,28 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import CountCon from './components/CounterCon';
+// import './components/H.css';
+import RouterList from './router/router'
 
 const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          https://juejin.im/post/5c81d10b5188257ee7275222
-        </a>
-        <CountCon  />
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <RouterList/>
+        </div>
+    );
 }
 
 export default App;
