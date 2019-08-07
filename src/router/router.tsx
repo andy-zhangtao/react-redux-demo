@@ -17,7 +17,6 @@ export default class RouterList extends React.PureComponent {
                         </li>
                     </ul>
                 </div>
-                {/*<IndexRoute component={Card}/>*/}
                 <Route path="/home" component={Home}/>
                 <Route path="/card" component={Card}/>
             </Router>)

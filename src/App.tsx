@@ -1,5 +1,4 @@
 import React from 'react';
-// import './components/H.css';
 import RouterList from './router/router'
 
 const App: React.FC = () => {
