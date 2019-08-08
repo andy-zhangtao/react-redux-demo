@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {BrowserRouter as Router, Link, Route} from "react-router-dom";
-import Card from '../components/Card';
+import CardCon from "../components/CardCon";
 import Home from '../components/Home';
 
 export default class RouterList extends React.PureComponent {
@@ -18,7 +18,7 @@ export default class RouterList extends React.PureComponent {
                     </ul>
                 </div>
                 <Route path="/home" component={Home}/>
-                <Route path="/card" component={Card}/>
+                <Route path="/card" component={CardCon}/>
             </Router>)
     }
 }
