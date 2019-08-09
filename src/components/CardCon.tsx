@@ -5,9 +5,7 @@ import {StoreState} from "../types";
 
 const mapStateToProps = (state: StoreState) => {
     return {
-        state: {
-            value: state.value
-        }
+        state: state
     }
 }
 

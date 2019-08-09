@@ -11,7 +11,7 @@ export default class Card extends React.PureComponent<ICard> {
 
         return (
             <p>
-                This is a Card List Page. Now Value: {state.value}
+                This is a Card List Page. Now Value: {state.idx}
             </p>
         )
     }
