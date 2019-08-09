@@ -1,1 +1,6 @@
 theme: jekyll-theme-cayman
+title: React Demo
+SEOTitle: React Demo
+header-img: img/back.jpg  	#显示在首页的背景图片
+email: ztao8607@gmail.com
+description: "A Sample And Tiny React Demo"  			 #网站介绍

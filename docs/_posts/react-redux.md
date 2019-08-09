@@ -197,7 +197,7 @@ import reducer from './reducers';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {Provider} from "react-redux";
+import {Provider} from "docs/_posts/react-redux";
 
 const store = createStore(reducer);
 
